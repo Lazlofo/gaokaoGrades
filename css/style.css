@@ -1,0 +1,52 @@
+/* css reset */
+html { font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,'Hiragino Sans GB',sans-serif;font-size: 62.5% !important;}
+body, ul, li, p { margin: 0; padding: 0; list-style: none; }
+img { width: 100%; vertical-align: middle }
+input { border: 0; outline: 0; }
+a { text-decoration: none; color: #000; -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+@media only screen and (max-width: 374px) { html { font-size: 55% !important } }
+@media only screen and (min-width: 375px) and (max-width: 413px) { html { font-size: 62.5% !important } }
+@media only screen and (min-width: 414px) { html { font-size: 69% !important } }
+
+html,body{width: 100%;height: 100%;}
+.page1{background-image: url(../img/bg1.jpg);background-size: 100% 100%;}
+.page{width: 100%;height:100%;background-repeat: no-repeat;background-size: 100% 100%;}
+.pg1-button{width: 117px;height: 54px;position: absolute;right: 10.2%;top: 77.1%;}
+.page2{background-image: url(../img/bg2.jpg);position: absolute;top: -100%;left: 0;}
+
+
+#clipArea { position: absolute !important;width:30.67%;height: 24.49%;top: 21.94%;left: 8.27%;z-index: 999;display: none;}
+#clipBtn { width: 90px;height: 32px;background: url(../img/pg2_button.png) no-repeat;background-size: contain; position: absolute;top: 81.06%;left: 8.4%;}
+/*#view { margin: 0 auto;width: 200px;height: 200px;background-color: #666;}*/
+#file{width: 29.87%;height: 27.49%;position: absolute;top: 22.24%;left: 8.8%;opacity: 0;}
+.sex{width: 30px;height: 30px;z-index: 888;opacity: 0;}
+.sex1{position: absolute;top: 42.23%;right: 28%;}
+.sex2{position: absolute;top: 42.23%;right: 10.4%;}
+.swiper-container { display:inline-block;width: 42px;height: 58px;background-color:#000;color:#fff;font-size: 4.4rem;text-align: center;line-height: 58px;margin: 0 4.53%; }  
+.chs-year{top: 357px;left: 62px;display: inline-block;}
+.time{width:100%;text-align: center;position: absolute;top: 59.67%;margin-left: 50%;transform: translate(-50%);}
+.sexuncheck{display: inline-block;width: 4.4%;height: 17.5px;background-repeat: no-repeat;background-size: contain;}
+.nan{position: absolute;top: 42.98%;left: 68.53%;background-image: url(../img/sex_uncheck.png);} 
+.nv{position: absolute;top: 42.98%;left: 86.13%;background-image: url(../img/sex_uncheck.png);}
+.page3{background-image: url(../img/bg3.jpg);background-size: 100% 100%;display: none;}
+#pg3_picture{width: 49.33%;height: 38.83%;position: absolute;top: 17.19%;left: 25.07%;}
+.pg3-sure{width: 37.33%;height: 6.15%;background:url(../img/pg3_sure.png) no-repeat;background-size: contain; position: absolute;top: 65.07%;left: 32%;}
+.pg3-repick{width: 37.33%;height: 6.15%;background:url(../img/pg3_repick.png) no-repeat;background-size: contain; position: absolute;top: 76.84%;left: 32%;}
+.pg3-back{width: 31px;height: 28px;background:url(../img/pg3_back.png);background-size: contain; position: absolute;top: 25px;left: 15px;}
+.name{width: 26.67%;height: 3%;position: absolute;top: 24.5%;right: 9.33%;font-family:hpqdFont;font-size: 1.9rem;color: #169ae6;background-color: transparent;}
+.banji{width: 26.67%;height: 3%;position: absolute;top: 33.5%;right: 9.33%;font-family:hpqdFont;font-size: 1.9rem;color: #169ae6;background-color: transparent;}
+.page4{background-image: url(../img/bg4.jpg);background-size: 100% 100%;display: none;}
+#pg4-pic{width: 24.8%;height: 19.64%;position: absolute;top: 23.54%;left: 11.2%;}
+.fs-style{font-size: 1.9rem;color: #169ae6;font-family: hpqdFont;}
+.pg4-name{position: absolute;top: 23%;left:62.67%; }
+.pg4-banji{position: absolute;top: 28.49%;left:62.67%; }
+.pg4-xingb{position: absolute;top: 34.48%;left:62.67%;color: #ce1b41; }
+.pg4-bianhao{position: absolute;top: 39.98%;left:62.67%; }
+.pg4-chinese{position: absolute;top: 55.6%;left:66.4%;color: #ce1b41; }
+.pg4-shuxue{position: absolute;top: 61.17%;left:66.4%;color: #ce1b41; }
+.pg4-english{position: absolute;top: 67%;left:66.4%;color: #ce1b41; }
+.mycode{width: 18%;position: absolute;top: 74.72%;right: 8.27%;}
+#final{position: absolute;top: 0;left: 0;width: 100%;height:100%;display: none;}
+.pg3-text{font-family:hpqdFont;color: #ce1b41;font-size: 1.8rem;position: absolute;left: 32%;top: 92.84%;}
+.final-text{font-family:hpqdFont;color: #fff;font-size: 1.8rem;position: absolute;right: 5%;top: 2%;display: none;}
+.load{font-family: hpqdFont;opacity: 0;}

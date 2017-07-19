@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0">
+	<title>成绩单</title>
+	<style>
+		@font-face{
+			font-family: hpqdFont;
+			src: url("./img/hpqd.TTF");
+		}
+	</style>
+	<link rel="stylesheet" href="./css/swiper-3.4.1.min.css" />
+	<link rel="stylesheet" href="./css/style.css" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/iscroll-zoom.js"></script>
+	<script src="js/swiper-3.4.1.min.js"></script>
+	<script src="js/upload.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div class="page1 page">
+		<img src="./img/pg1_button.png" class="pg1-button next-page" alt="">
+		<p class="load">加</p>
+	</div>
+	<div class="page2 page">
+		<div id="clipArea"></div>
+		<input type="file" id="file" accept="image/*" />
+		<div id="clipBtn"></div>
+		<!-- <div id="view"></div> -->
+		<input type="text" class="name" />
+		<input type="text" class="banji" />
+		<input type="radio" class="sex sex1" name="sex" value="1" />
+		<span class="sexuncheck nan"></span>
+		<input type="radio" class="sex sex2" name="sex" value="2" />
+		<span class="sexuncheck nv"></span>
+		<div class="time">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">2</div>
+					<div class="swiper-slide">1</div>
+				</div>
+			</div>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">0</div>
+					<div class="swiper-slide">9</div>
+				</div>
+			</div> 
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">1</div>
+					<div class="swiper-slide">2</div>
+					<div class="swiper-slide">3</div>
+					<div class="swiper-slide">4</div>
+					<div class="swiper-slide">5</div>
+					<div class="swiper-slide">6</div>
+					<div class="swiper-slide">7</div>
+					<div class="swiper-slide">8</div>
+					<div class="swiper-slide">9</div>
+					<div class="swiper-slide">0</div>
+				</div>
+			</div> 
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">7</div>
+					<div class="swiper-slide">8</div>
+					<div class="swiper-slide">9</div>
+					<div class="swiper-slide">0</div>
+					<div class="swiper-slide">1</div>
+					<div class="swiper-slide">2</div>
+					<div class="swiper-slide">3</div>
+					<div class="swiper-slide">4</div>
+					<div class="swiper-slide">5</div>
+					<div class="swiper-slide">6</div>
+				</div>
+			</div> 
+		</div>
+	</div>
+	<div class="page3 page">
+		<img src="" id="pg3_picture" alt="">
+		<div class="pg3-sure"></div>
+		<div class="pg3-repick"></div>
+		<div class="pg3-back"></div>
+		<div class="pg3-text">长按照片可以保存</div>		
+	</div>
+	<div class="page4 page" id="mycav">
+		<img src="" alt="" id="pg4-pic" />
+		<div class="pg4-name fs-style"></div>
+		<div class="pg4-banji fs-style"></div>
+		<div class="pg4-xingb fs-style"></div>
+		<div class="pg4-bianhao fs-style"></div>
+		<div class="pg4-chinese fs-style"></div>
+		<div class="pg4-shuxue fs-style"></div>
+		<div class="pg4-english fs-style"></div>
+		<img src="./img/code.png" class="mycode" alt="">	
+	</div>
+		<img src="" alt="" id="final" />
+		<p class="final-text">长按保存图片，发朋友圈装逼<br/>#如此美照，怎能不炫#</p>
+<script src="js/html2canvas.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://res2.caiguo.com/js/weixin-1.0.js"></script>
+<script src="http://res2.caiguo.com/build/util.bundle.js"></script>
+<script src="./js/index.js"></script>
+<!-- <script src="https://s19.cnzz.com/z_stat.php?id=1262433463&web_id=1262433463" language="JavaScript"></script> -->
+</body>
+</html>
